@@ -1,63 +1,54 @@
 {
-    "name": "githubdocs",
-    "version": "0.0.9",
-    "description": "Easily build a searchable documentation Single Page Application (SPA) using markdown files in your Github Repo or local files.",
-    "private": false,
-    "scripts": {
-        "start": "node app.js",
-        "lint": "eslint ./"
-    },
-    "main": "app.js",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/mrvautin/githubdocs.git"
-    },
-    "keywords": [
-        "knowledge base",
-        "markdown",
-        "express",
-        "documentation",
-        "kb",
-        "faq",
-        "wiki",
-        "github",
-        "SPA",
-        "single page application",
-        "search"
-    ],
-    "author": "Mark Moffat",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/mrvautin/githubdocs/issues"
-    },
-    "dependencies": {
-        "axios": "^0.19.2",
-        "body-parser": "^1.19.0",
-        "cheerio": "^1.0.0-rc.2",
-        "cookie-parser": "~1.4.3",
-        "debug": "^4.1.1",
-        "express": "^4.17.1",
-        "express-handlebars": "^3.1.0",
-        "glob-promise": "^3.4.0",
-        "js-search": "^1.4.3",
-        "lodash": "^4.17.4",
-        "markdown-it": "^8.3.1",
-        "morgan": "^1.9.1",
-        "node-cron": "^2.0.3",
-        "serve-favicon": "^2.5.0",
-        "shortid": "^2.2.15",
-        "sitemap": "^1.13.0",
-        "slugify": "^1.1.0",
-        "uglify-es": "^3.3.9",
-        "uglifycss": "0.0.27"
-    },
-    "devDependencies": {
-        "eslint": "^6.8.0",
-        "eslint-config-standard": "^13.0.1",
-        "eslint-plugin-extra-rules": "0.0.0-development",
-        "eslint-plugin-import": "^2.18.2",
-        "eslint-plugin-node": "^9.2.0",
-        "eslint-plugin-promise": "^4.2.1",
-        "eslint-plugin-standard": "^4.0.1"
-    }
+  "name": "setudocsserver",
+  "version": "0.0.9",
+  "description": "Easily build a searchable documentation Single Page Application (SPA) using markdown files in your Github Repo or local files.",
+  "private": false,
+  "scripts": {
+    "start": "node app.js",
+    "lint": "eslint ./",
+    "debug": "node --inspect app.js"
+  },
+  "main": "app.js",
+  "keywords": [
+    "knowledge base",
+    "markdown",
+    "express",
+    "documentation",
+    "kb",
+    "faq",
+    "wiki",
+    "github",
+    "SPA",
+    "single page application",
+    "search"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "base64url": "^3.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "glob": "^10.2.6",
+    "glob-promise": "^3.4.0",
+    "gray-matter": "^4.0.3",
+    "js-search": "^2.0.0",
+    "lodash": "^4.17.4",
+    "morgan": "^1.9.1",
+    "node-cron": "^2.0.3",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.2.11",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-extra-rules": "0.0.0-development",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.20"
+  }
 }

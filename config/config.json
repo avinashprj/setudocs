@@ -1,21 +1,21 @@
 {
-    "title": "githubdocs",
-    "githubRepoOwner": "mrvautin",
-    "githubRepoName": "githubdocs",
-    "githubRepoPath": "docs",
-    "updateDocsCron": "*/5 * * * *",
-    "menuItems": [
-        {
-            "menuTitle": "About",
-            "menuLink": "/about"
-        },
-        {
-            "menuTitle": "Contact",
-            "menuLink": "/contact"
-        }
-    ],
-    "addAnchors": true,
-    "layoutFile": "layout",
-    "theme": "default",
-    "static": false
+  "title": "docs",
+  "githubRepoOwner": "setuhq",
+  "githubRepoName": "docs",
+  "githubRepoPath": "content",
+  "updateDocsCron": "0 0 * * *",
+  "menuItems": [
+    {
+      "menuTitle": "About",
+      "menuLink": "/about"
+    },
+    {
+      "menuTitle": "Contact",
+      "menuLink": "/contact"
+    }
+  ],
+  "addAnchors": true,
+  "layoutFile": "layout",
+  "theme": "default",
+  "static": false
 }

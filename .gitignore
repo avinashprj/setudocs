@@ -3,3 +3,4 @@ dist/
 ecosystem.config.js
 .dockerignore
 .env
+.vercel
